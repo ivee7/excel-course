@@ -2,8 +2,6 @@ import {$} from '@core/dom'
 
 export function resizeHandler($root, event) {
     const $resizer = $(event.target)
-    // const $parent = $resizer.$el.parentNode // bad!
-    // const $parent = $resizer.$el.closest('.column') // better but bad
     const $parent = $resizer.closest('[data-type="resizable"]')
     const coords = $parent.getCoords()
     const type = $resizer.data.resize
