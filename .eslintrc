@@ -11,6 +11,7 @@
       "comma-dangle": "off",
       "indent": "off",
       "require-jsdoc": "off",
+      "linebreak-style": "off",
       "eol-last": "off",
       "no-trailing-spaces": "off",
       "operator-linebreak": "off"

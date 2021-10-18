@@ -11,7 +11,6 @@ export class ExcelStateComponent extends ExcelComponent {
 
     initState(initialState = {}) {
         this.state = {...initialState}
-        console.log(this.state)
     }
 
     setState(newState) {
