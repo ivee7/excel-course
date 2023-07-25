@@ -10,21 +10,13 @@
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "lint": "npx eslint ./src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ivee7/exel-course.git"
-  },
   "keywords": [
     "js",
     "javascript",
     "excel"
   ],
-  "author": "Sergeev Ivan <ivanman007@mail.ru>",
+  "author": "Ivan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ivee7/exel-course/issues"
-  },
-  "homepage": "https://github.com/ivee7/exel-course#readme",
   "private": true,
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {

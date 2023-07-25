@@ -17,7 +17,7 @@ export class DashboardPage extends Page {
                 </a>
               </div>
             </div>
-        
+
             <div class="db__table db__view">
                 ${ createRecordsTable() }
             </div>
